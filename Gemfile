@@ -48,10 +48,10 @@ group :development do
 	gem 'webrat'
 	gem 'rspec-rails'
 	gem 'annotate'
-	gem 'protected_attributes'
 end
 
 group :test do
 	gem 'rspec'
-	gem 'protected_attributes'
 end
+
+gem 'devise'
